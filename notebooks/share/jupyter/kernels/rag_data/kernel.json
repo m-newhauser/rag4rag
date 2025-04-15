@@ -1,0 +1,15 @@
+{
+ "argv": [
+  "/Users/marynewhauser/Desktop/python-work/rag_data/.venv/bin/python",
+  "-Xfrozen_modules=off",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "rag_data",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

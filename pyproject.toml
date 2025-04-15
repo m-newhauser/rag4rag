@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "rag-data"
+version = "0.1.0"
+description = ""
+authors = ["m-newhauser <mary.newhauser@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+ipykernel = "^6.29.5"
+lettucedetect = "^0.1.6"
+datasets = "^3.4.1"
+python-dotenv = "^1.0.1"
+tqdm = "^4.67.1"
+jupyter = "^1.1.1"
+jupyter-contrib-nbextensions = "^0.7.0"
+notebook = "6.4.12"
+traitlets = "5.9.0"
+distilabel = "^1.5.3"
+openai = "^1.68.0"
+plotly-express = "^0.4.1"
+weaviate = "^0.1.2"
+weaviate-client = "^4.12.0"
+rich = "^14.0.0"
+langchain = "^0.3.23"
+langchain-community = "^0.3.21"
+tiktoken = "^0.9.0"
+faiss-cpu = "^1.10.0"
+sentence-transformers = "^4.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
