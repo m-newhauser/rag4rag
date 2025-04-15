@@ -174,4 +174,4 @@ cython_debug/
 .pypirc
 
 # Add DS_Store files to ignore
-.DS_Store
+.DS_Store/
