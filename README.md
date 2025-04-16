@@ -10,16 +10,6 @@ Retrieval is the process of accessing or recovering stored information or items.
 
 Here's an example:
 
-# rag4rag: Using RAG to generate data for fine-tuning retrieval models
-
-**RAG datasets have a synthetic data problem. This repo is an ongoing experiment to solve it.**
-
-Using synthetic data to fine-tune retrieval models is a cheap and popular way to increase accuracy for RAG and agentic workflows. But synthetic data has a huge hallucination problem. This problem, however, can be fixed by using RAG to generate sythnetic data for fine-tuning rather than using LLMs in isolation. We call this **rag4rag**.
-
-### What type of data is needed for fine-tuning a retrieval model?
-Retrieval is the process of accessing or recovering stored information or items. To train models to be better at retrieval, we feed them a `context` along with `question` and `answer` pairs.
-
-Here's an example:
 ```json
 {
     "context": "Beyoncé's debut album, Dangerously in Love (2003), established her as a solo artist worldwide.",
